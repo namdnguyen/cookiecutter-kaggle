@@ -13,9 +13,14 @@ dependencies:
   - pandas-profiling
   - path.py
   - python=3.6
+  - pytest
   - scikit-learn
   - seaborn
   - statsmodels
+  - lime
+  - shap
+  - dask
+  - mlflow
   - pip:
       - black
       - h2o
@@ -26,5 +31,6 @@ dependencies:
       - nbdime
       - plotly
       - pylint
+      - flake8
       - pyspark
       - tensorflow
